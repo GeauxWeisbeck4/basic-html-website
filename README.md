@@ -11,26 +11,6 @@ I like to plan my projects out in the repository README.md, so we'll go ahead an
 - Structure in a way that you can easily add styles later.
 - Add SEO meta tags to the website.
 
-## Pages to Create
+## Link to Project Demo
 
-- Homepage
-- Projects Page
-- Articles Page
-- Contact Page with a Contact Form
-
-## To Do List
-
-- Create `index.html` and setup Home page
-- Create `projects.html` and set link to page in Navbar
-- Create `/projects/project-one.html` etc. for every project
-- Create `articles.html` and set link to page in Navbar
-- Create `/articles/article-one.html` etc. for every article
-- Create `contact.html` and add contact form
-- Add Key SEO Meta Data in the `<head></head>` elements
-- Make it so styles are easy to add later on (and maybe use some styling if necessary)
-- Render Navbar on every page
-
-## Content
-
-- [Blog Post](hashnode.com)
-- [YouTube Video](youtube.com)
+[Basic HTML Website Demo](https://geaux-basic-html-website.netlify.app/)
