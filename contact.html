@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />   
+    <title>Contact Page | Basic HTML Website</title>   
+    <meta name="viewport" content="width=device-width" />   
+    <meta name="description" content="A basic HTML website with no styling and the second project for Frontend Roadmap. | Contact Page" />   
+    <meta property="og:title" content="contact Page | Basic HTML Website" />   
+    <meta property="og:description" content="A basic HTML website with no styling and the second project for Frontend Roadmap. | Contact Page" />   
+    <meta property="og:image" content="https://basic-html-website.netlify.app/img/wireframe-basic-website.png" />   
+    <meta property="og:image:alt" content="Wireframe for the Basic HTML Website project" />   
+    <meta name="twitter:title" content="Contact Page | Basic HTML Website" />   
+    <meta name="twitter:description" content="A basic HTML website with no styling and the second project for Frontend Roadmap. | Contact Page" />   
+    <meta name="twitter:url" content="https://basic-html-website.netlify.app/?src=twitter" />   
+    <meta name="twitter:image:src" content="http://www.machinelearningworkshop.com/img/wireframe-basic-html-website.png" />   
+    <meta name="twitter:image:alt" content="basic html website frontend project wireframe" />   
+    <meta name="twitter:creator" content="@geauxweisbeck4" />   
+    <meta name="twitter:site" content="@roadmapsh" />   
+    <link rel="stylesheet" src="css/styles.css" />   
+    <link rel="icon" type="image/png" href="/img/icon.png" />   
+    <link rel="alternate" href="https://basic-html-website.netlify.app/contact.html/fr/" hreflang="fr-FR" />   
+    <link rel="alternate" href="https://basic-html-website.netlify.app/contact/html/pt/" hreflang="pt-BR" />   
+    <link rel="canonical" href="https://basic-html-website.netlify.app/contact.html" />
+</head>
+<body>
+    <!-- Header/Navbar Component -->
+    <header>
+        <nav>
+            <img src="/img/devdude.png" class="logo" alt="header logo" />
+            <p class="logo-text">Andrew Weisbeck</p>
+            <ul class="nav">
+                <li><a class="nav-link" href="/index.html">Home</a></li>
+                <li><a class="nav-link" href="/projects.html">contact</a></li>
+                <li><a class="nav-link" href="/articles.html">Articles</a></li>
+                <li><a class="nav-link" href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section id="hero">
+        <div class="sub-title">
+            <h1>Contact Page</h1>
+            <p>a contact page with no styling, built with html only</p>
+        </div>
+    </section>
+    <section id="form">
+        <div class="sub-title">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="form-section">
+            <h3>Please contact us with any questions or concerns.</h3>
+            <form action="/contact.html" method="post">
+                <p>
+                  <label for="name">
+                      <span>First Name</span>
+                      <strong><span aria-label="required">*</span></strong>
+                  </label>
+                  <input type="text" id="name" name="first-name" required>
+                </p>
+                <p>
+                  <label for="name">
+                      <span>Last Name</span>
+                      <strong><span aria-label="required">*</span></strong>
+                  </label>
+                  <input type="text" id="name" name="last-name" required>
+                </p>
+                <p>
+                  <label for="mail">
+                      <span>Email: </span>
+                      <strong><span aria-label="required">*</span></strong>
+                  </label>
+                  <input type="mail" id="email" name="user-mail" required>
+                </p>
+                <p>
+                  <label for="msg">
+                      <span>Message:</span>
+                  </label>
+                  <textarea name="msg" id="user_message"></textarea>
+                </p>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
